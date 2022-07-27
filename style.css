@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
 /* font-family: 'Fraunces', serif; */
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -56,12 +55,12 @@ main article {
   gap: 1rem;
 }
 
-h4 {
+.pre {
   text-transform: uppercase;
   letter-spacing: 0.625rem;
 }
 
-article h4,
+article .pre,
 article .description,
 del {
   font-family: var(--font-m);
@@ -119,10 +118,6 @@ button:active {
   text-align: center;
 }
 
-.attribution p {
-  display: inline-block;
-}
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -131,7 +126,7 @@ button:active {
 
 @media (min-width: 813px) {
   :root {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   main {
@@ -141,21 +136,13 @@ button:active {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  h4 {
-    margin-bottom: 10px;
-  }
-
   article {
     height: 450px;
     padding: 40px !important;
   }
 
-  .price {
-    margin-top: 10px;
-  }
-
   button {
-    margin-top: 5px;
+    margin-top: px;
   }
 
   picture img {
