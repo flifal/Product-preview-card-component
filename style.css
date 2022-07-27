@@ -118,6 +118,10 @@ button:active {
   text-align: center;
 }
 
+.attribution p {
+  display: inline-block;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -126,27 +130,31 @@ button:active {
 
 @media (min-width: 813px) {
   :root {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   main {
-    height: 600px;
-    width: 800px;
+    height: 450px;
+    width: 600px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  h4 {
+    margin-bottom: 10px;
+  }
+
   article {
-    height: 600px;
-    padding: 50px !important;
+    height: 450px;
+    padding: 40px !important;
   }
 
   .price {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   button {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   picture img {
