@@ -58,7 +58,7 @@ main article {
 
 .pre {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
 }
 
 article .pre,
@@ -141,10 +141,6 @@ button:active {
   article {
     height: 450px;
     padding: 40px !important;
-  }
-
-  button {
-    margin-top: px;
   }
 
   picture img {
