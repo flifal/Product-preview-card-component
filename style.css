@@ -36,6 +36,7 @@ img {
 }
 
 main {
+  max-width: 350px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -57,7 +58,7 @@ main article {
 
 .pre {
   text-transform: uppercase;
-  letter-spacing: 0.625rem;
+  letter-spacing: 2px;
 }
 
 article .pre,
@@ -87,6 +88,7 @@ del {
 .title {
   color: var(--Very-dark-blue);
   font-size: 1.7rem;
+  font-weight: 700;
 }
 
 .update-price {
@@ -131,7 +133,7 @@ button:active {
 
   main {
     height: 450px;
-    width: 600px;
+    max-width: 600px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
